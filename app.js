@@ -13,7 +13,7 @@ let currentId = 2;
 
 // Routes
 app.get('/products', (req, res) => {
-  res.send({products: product})
+  res.send({products: products})
 })
 
 // Server

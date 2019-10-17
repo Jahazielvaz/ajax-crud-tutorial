@@ -11,8 +11,8 @@ $(() => {
         res.products.forEach((prod) => {
           tbodyEl.append('\
             <tr>\
-              <td class="id">' + product.id + '</td>\
-              <td><input type="text" class="name" value= "' + product.name + '"</td>\
+              <td class="id">' + prod.id + '</td>\
+              <td><input type="text" class="name" value= "' + prod.name + '"</td>\
               <td>\
                 <button class="update-button">UPDATE/PUT</button>\
                 <button class="delete-button">DELETE</button>\
